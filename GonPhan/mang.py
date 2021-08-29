@@ -18,3 +18,9 @@ for i in range(1,n+1):
     for item in range(i):
         print("*",end="")
     print()
+ 
+#######################
+
+n = int(input("Nhập N: "))
+for i in range(1, n + 1):
+    print("*" * i)
