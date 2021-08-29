@@ -29,4 +29,21 @@ for i in range(1, n + 1):
 n = int(input("Nhập N: "))
 for i in range(n, 0,-1):
     print("*" * i)
+    
+    
+    
+######################
+n = int(input("Nhập N: "))
+
+s = ""
+
+for i in range(1, n + 1):
+    s = s + str(i)
+    print(s)
+
+
+# 1
+# 12
+# 123
+# 1234
 
