@@ -1,3 +1,4 @@
+#ok nha Long
 """ Đề là cho 1 cái mảng
 input
 a =[1,2,3]
