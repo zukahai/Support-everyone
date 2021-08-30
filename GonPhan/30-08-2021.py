@@ -16,3 +16,23 @@ a.sort()
 print(a)
 a.sort(reverse=True)
 print(a)
+
+
+
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+size = 2
+print(a)
+
+b = []
+index = 0
+for i in range(len(a)):
+    if index == 0:
+        c = []
+    
+    c.append(a[i])
+    index = index + 1
+    if index == size:
+        b.append(c)
+        index = 0
+    
+print(b)
