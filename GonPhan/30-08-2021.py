@@ -57,3 +57,27 @@ for i in range(len(a)):
         size = size + 1
     
 print(b)
+
+#################################
+bài tập liên quan về đếm 
+""" [[1],[2], [3,4] ,[5,6] , [7,8,9], [8,9,10]]"""
+a=[1,2,3,4,5,6,7,8,9,10]
+print(a)
+size =1
+dem_size =0 #biến đém 
+index = 0 # biến đếm 
+b=[]
+for i in range(len(a)):
+    if index ==0:
+        c =[] 
+    c.append(a[i]) 
+    index = index +1 
+    if index ==size:
+        
+        b.append(c)
+        dem_size = dem_size +1    
+        if dem_size%2==0:
+           size = size +1
+        index =0
+print(b)   
+
