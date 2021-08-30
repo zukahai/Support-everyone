@@ -4,3 +4,11 @@
 # Cau B:
 #     Input a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #     OutPut [[1], [2, 3], [4, 5, 6], [7, 8, 9, 10]]
+
+
+câu a
+a=[1,5,2,4,3,6]
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
