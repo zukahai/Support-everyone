@@ -1,8 +1,3 @@
-n = int(input("Nhập N: "))
-
-for i in range(n):
-    print("*" * (i + 1))
-    
 # Input  
 # N = 4
 # Output:
@@ -20,3 +15,9 @@ for i in range(n):
 # ****
 # *****
 # ******
+
+
+n = int(input("Nhập N: "))
+
+for i in range(n):
+    print("*" * (i + 1))
