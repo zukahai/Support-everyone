@@ -24,7 +24,6 @@ plt.imshow(segmented_image)
 plt.show()
 
 
-
 masked_image = np.copy(image)
 masked_image = masked_image.reshape((-1, 3))
 cluster = 2
